@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp_uploads/
+temp_outputs/
+uploads/
+cropped_images/
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Media files (optional - remove if you want to include sample images)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Keep only the deployment files
+!render.yaml
+!Procfile
+!runtime.txt
+!requirements.txt
+!app.py
+!app_cloud.py
+!templates/
+!README.md
+!DEPLOYMENT_GUIDE.md
+!HOW_IT_WORKS.md
